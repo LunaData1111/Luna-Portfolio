@@ -18,7 +18,7 @@ import {
     ChakraProvider
   } from '@chakra-ui/react';
   import React from 'react';
-  import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from 'react-icons/bs';
+  import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
   import { MdEmail, MdOutlineEmail } from 'react-icons/md';
   
   export default function ContactFormWithSocialButtons() {
@@ -73,13 +73,13 @@ import {
                     />
                   </Tooltip>
   
-                  <Link href="https://github.com/MorganWoods618">
+                  <Link href="https://github.com/LunaData1111">
                     <IconButton
                       aria-label="github"
                       variant="ghost"
                       size="lg"
                       fontSize="3xl"
-                      icon={<BsGithub />}
+                      icon={<FaGithub />}
                       _hover={{
                         bg: 'blue.500',
                         color: useColorModeValue('white', 'gray.700'),
@@ -87,13 +87,14 @@ import {
                       isRound
                     />
                   </Link>
-  
-                  <Link href="https://twitter.com/MorganWoods618">
+
+                  <Link href="https://stackoverflow.com/users/19222238/lunadata1111">
                     <IconButton
-                      aria-label="twitter"
+                      aria-label="Stack Overflow"
                       variant="ghost"
                       size="lg"
-                      icon={<BsTwitter size="28px" />}
+                      fontSize="3xl"
+                      icon={<FaStackOverflow />}
                       _hover={{
                         bg: 'blue.500',
                         color: useColorModeValue('white', 'gray.700'),
@@ -102,12 +103,12 @@ import {
                     />
                   </Link>
   
-                  <Link href="https://www.linkedin.com/in/morgan-woods-b57bb6240/">
+                  <Link href="https://www.linkedin.com/in/christian-luna-9263b4240/">
                     <IconButton
                       aria-label="linkedin"
                       variant="ghost"
                       size="lg"
-                      icon={<BsLinkedin size="28px" />}
+                      icon={<FaLinkedin size="28px" />}
                       _hover={{
                         bg: 'blue.500',
                         color: useColorModeValue('white', 'gray.700'),

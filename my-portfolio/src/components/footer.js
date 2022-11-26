@@ -7,7 +7,7 @@ import {
   ChakraProvider,
 } from "@chakra-ui/react";
 import * as React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 const Footer = () => (
   <ChakraProvider>
@@ -17,26 +17,26 @@ const Footer = () => (
           <ButtonGroup variant="ghost">
             <IconButton
               as="a"
-              href="https://www.linkedin.com/in/morgan-woods-b57bb6240/"
+              href="https://www.linkedin.com/in/christian-luna-9263b4240/"
               aria-label="LinkedIn"
               icon={<FaLinkedin fontSize="1.25rem" />}
             />
             <IconButton
               as="a"
-              href="https://github.com/MorganWoods618"
+              href="https://github.com/LunaData1111"
               aria-label="GitHub"
               icon={<FaGithub fontSize="1.25rem" />}
             />
             <IconButton
               as="a"
-              href="https://twitter.com/MorganWoods618"
-              aria-label="Twitter"
-              icon={<FaTwitter fontSize="1.25rem" />}
+              href="https://stackoverflow.com/users/19222238/lunadata1111"
+              aria-label="StackOverflow"
+              icon={<FaStackOverflow fontSize="1.25rem" />}
             />
           </ButtonGroup>
         </Stack>
         <Text fontSize="sm" color="subtle">
-          &copy; {new Date().getFullYear()} Morgan Woods
+          &copy; {new Date().getFullYear()} Christian LunaDuenas
         </Text>
       </Stack>
     </Container>
