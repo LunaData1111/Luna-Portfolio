@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 
-import Layout from "./components/layout/Layout";
+import Layout from "./components/layout";
 import PortfolioPage from "./pages/portfolio";
-import AboutMePage from "./pages/aboutMe";
+import AboutMePage from "./pages/aboutme";
 import ResumePage from "./pages/resume";
 import ContactForm from "./pages/contact";
 
@@ -18,3 +18,5 @@ function App() {
     </Layout>
   );
 }
+
+export default App
