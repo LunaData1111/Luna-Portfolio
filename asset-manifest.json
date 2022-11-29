@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/luna-portfolio/static/js/main.e485787b.js",
-    "index.html": "/luna-portfolio/index.html",
-    "main.e485787b.js.map": "/luna-portfolio/static/js/main.e485787b.js.map"
+    "main.js": "/Luna-Portfolio/static/js/main.e485787b.js",
+    "index.html": "/Luna-Portfolio/index.html",
+    "main.e485787b.js.map": "/Luna-Portfolio/static/js/main.e485787b.js.map"
   },
   "entrypoints": [
     "static/js/main.e485787b.js"
